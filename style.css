@@ -1,3 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  'Times New Roman';
+}
+#outer {
+ font-size: 25px;
+}
+#inner {
+    font-size: 10px;
+}
 #box {
    background-color: blue; 
    color: white;
@@ -7,4 +19,9 @@
 }
 button{
     background-color: green;
+}
+h1 {
+    color: yellow;
+    text-transform: capitalize;
+    text-align: center;
 }
